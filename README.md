@@ -4,11 +4,12 @@ jsqs
 Javascript Query String Library
 
 This small library adds five new methods to the Window object
-1.  **window.loadParams()** - Parses the query string and builds the params object
-2.  **window.getParam(parameter_name)** - Gets a parameter from the params object, returns null if it does not exist
-3.  **window.setParam(parameter_name, parameter_value)** - Set a param value, overrides the old value if it already exists
-4.  **window.paramsString()** - Returns the parameters as a query string
-5.  **window.sendParams(url)** - Sets the window location to a provided url (optional) with a query string based on new params
+
++  **window.loadParams()** - Parses the query string and builds the params object
++  **window.getParam(parameter_name)** - Gets a parameter from the params object, returns null if it does not exist
++  **window.setParam(parameter_name, parameter_value)** - Set a param value, overrides the old value if it already exists
++  **window.paramsString()** - Returns the parameters as a query string
++  **window.sendParams(url)** - Sets the window location to a provided url (optional) with a query string based on new params
 
 
 Known issues, future enhancements
